@@ -6,7 +6,7 @@ This template uses Express for routing, but you can change that to any framework
 
 If you initialize your project with `firebase init`, do not overwrite the `functions/package.json` file, all of that was already install for you with this template.
 
-###Install Guide
+### Install Guide
 
 To use this yourself, install the Firebase Client to your computer using the code below or you can find Google's guide [here](https://firebase.google.com/docs/cli):
 
@@ -20,7 +20,15 @@ Install this template with the following code:
 npx degit "vpanyushenko/svelte-firebase" my-app
 ```
 
-Add your project ID to the `.firebaserc` file.
+Add your project ID to the `.firebaserc` file. You do not need to run `firebase init` as the files are already generated.
+
+Run Locally:
+
+```bash
+cd my-app/functions
+npm install
+npm run dev
+```
 
 Deploy:
 
